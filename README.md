@@ -6,3 +6,5 @@ Now v5(alpha) Mita can send schedule and tell about weather, it's all, but Mita 
 At the current moment in time Mita in alpha test
 
 You can always find her here ---> @uxabcxsssbot
+
+Mita is open source project - therefore safe to use
