@@ -153,7 +153,7 @@ func timetable(fkl string, grp string) string {
 }
 
 func wr() string {
-	yandexWeatherApiKey := "7eb05bd6-d6b0-4b06-961c-29d722d3d31c"
+	yandexWeatherApiKey := "token"
 	w, err := weather.GetWeatherWithCache(yandexWeatherApiKey, 59.6, 30.2, time.Hour)
 	if err != nil {
 		log.Fatal("error 003")
