@@ -1,7 +1,7 @@
 # MitaBot
 A simple telegram bot written on the Go 
-Mita powered by tgbotAPI ➜ github.com/go-telegram-bot-api/telegram-bot-api
-You can always find her here ➜ @uxabcxsssbot
+Mita powered by tgbotAPI ➜ github.com/go-telegram-bot-api/telegram-bot-api ![Image alt](https://github.com/bla1z3198/MitaBot/blob/main/16530727.png)
+You can always find her here ➜ @uxabcxsssbot \n
 
 Patch 1125 (Mita v6 Alpha) // 01 Jan 2025
  ➜  added some new functions
