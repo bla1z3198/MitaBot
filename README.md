@@ -5,7 +5,7 @@ Mita powered by tgbotAPI ➜ github.com/go-telegram-bot-api/telegram-bot-api
 
 You can always find her here ➜ @uxabcxsssbot
 
-Released on January 22, 2025 1:52 a.m., for St. Petersburg University of Civil Aviation
+Released on January 22, 2025 1:52 AM, for St. Petersburg University of Civil Aviation
 
 ## Patch 1125 (Mita v6 Alpha) // 01 Jan 2025
 
