@@ -1,11 +1,11 @@
 # MitaBot
-## A simple telegram bot written on the Go
+## A simple telegram bot on Go
 
 Mita powered by tgbotAPI ➜ github.com/go-telegram-bot-api/telegram-bot-api 
 
 You can always find her here ➜ @uxabcxsssbot
 
-Released on January 22, 2025 1:52 AM, for St. Petersburg University of Civil Aviation
+Released on JAN 22, 2025 at 1:52 AM, for St. Petersburg University of Civil Aviation
 
 ## Patch 1125 (Mita v6 Alpha) // 01 Jan 2025
 
