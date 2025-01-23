@@ -24,4 +24,13 @@ Released on JAN 22, 2025 at 1:52 AM, for St. Petersburg University of Civil Avia
  ➜  fixed bugs 
  
  ➜  the bot's design has been changed
+
+ ## Patch 23125 (Mita v8 stab) // 23 Jan 2025
+
+ ➜ added timeout for no spam, and correctly Mita work
+
+ ➜ fixed bugs
+ 
+
+
    
