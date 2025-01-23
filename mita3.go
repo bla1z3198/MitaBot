@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	token           = "7561424171:AAH3MnHS5D5ujM91GEREUIpsOqsTD7Ubz0k"
+	token           = "token"
 	numericKeyboard = tgbotapi.NewReplyKeyboard(
 		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("Какая сегодня погода?")),
