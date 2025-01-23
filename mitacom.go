@@ -11,7 +11,7 @@ import (
 )
 
 func Wr(mita *tgbotapi.BotAPI, update tgbotapi.Update) {
-	yandexWeatherApiKey := "7eb05bd6-d6b0-4b06-961c-29d722d3d31c"
+	yandexWeatherApiKey := "Yandex Api Key"
 	wr, err := weather.GetWeatherWithCache(yandexWeatherApiKey, 59.6, 30.2, time.Hour)
 	if err != nil {
 		log.Fatalln("error 003")
