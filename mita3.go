@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	token           = "7561424171:AAF3-62oAWd876eUdQF56x-dsX5_xq8_jJE"
+	token           = "7561424171:AAH3MnHS5D5ujM91GEREUIpsOqsTD7Ubz0k"
 	numericKeyboard = tgbotapi.NewReplyKeyboard(
 		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("Какая сегодня погода?")),
@@ -20,13 +20,9 @@ var (
 		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("АСУВД 24-01")),
 		tgbotapi.NewKeyboardButtonRow(
-			tgbotapi.NewKeyboardButton("ТЛ 24-01")),
-		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("МПОБАС 24-01")),
 		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("ОБПрВТ 24-01")),
-		tgbotapi.NewKeyboardButtonRow(
-			tgbotapi.NewKeyboardButton("ОАБ 24-01")),
 		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("Выйти в меню")),
 	)
@@ -52,7 +48,7 @@ func main() {
 		}
 
 		msg := tgbotapi.NewMessage(update.Message.Chat.ID, "мои умения ниже, в меню")
-
+		msgg := tgbotapi.NewMessage(update.Message.Chat.ID, "отправляю...")
 		switch update.Message.Text {
 		case "/start":
 			mitacom.Start(mita, update)
@@ -67,7 +63,8 @@ func main() {
 			mita.Send(msg)
 		case "АСУВД 24-01", "ТЛ 24-01", "МПОБАС 24-01", "ОБПрВТ 24-01", "ОАБ 24-01":
 			grp := update.Message.Text
-			mitacom.Rse(grp, mita, update)
+			mita.Send(msgg)
+			mitacom.Rse(grp, mita, update, updates)
 		case "/dev":
 			dev := 1
 			mitacom.Any(mita, update, dev)
