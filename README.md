@@ -30,7 +30,11 @@ Released on JAN 22, 2025 at 1:52 AM, for St. Petersburg University of Civil Avia
  ➜ added timeout for no spam, and correctly Mita work
 
  ➜ fixed bugs
- 
+
+ ## Note 4525 // 04 May 2025
+
+ ➜ It has been stopped at the moment, has been working steadily for 3 weeks, without failures and failures, and has been well received by the community where it was used.
+Users have spoken positively about Mita. She is still here and you can use her to your advantage.
 
 
    
